@@ -1,3 +1,4 @@
 **/.ssh
 **/*.wasm
 .DS_Store
+**/tmp/

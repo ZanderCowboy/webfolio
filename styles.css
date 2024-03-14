@@ -1,0 +1,98 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #333;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+
+.dark-mode a:link {
+    color: red;
+}
+
+.dark-mode a:visited {
+    color: lightslategray;
+}
+
+.dark-mode a:hover {
+    color: #ffffff;
+}
+
+.dark-mode a:active {
+    color: green;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#toc {
+    margin-top: 20px;
+}
+
+#toc ul {
+    list-style: none;
+    padding: 0;
+}
+
+#toc li {
+    margin-bottom: 5px;
+}
+
+#toc a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+#toc a:hover {
+    text-decoration: underline;
+}
+
+.toggle {
+    cursor: pointer;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+}
+
+/* 
+.dark-mode .light-mode {
+    opacity: 1;
+}
+
+.light-mode .dark-mode {
+    opacity: 1;
+} */
+/* 
+.light-mode .dark-mode .dark-mode-icon,
+.dark-mode .light-mode .light-mode-icon {
+    opacity: 0;
+}
+
+.dark-mode .dark-mode-icon,
+.light-mode .light-mode-icon {
+    opacity: 1;
+}
+
+.dark-mode .light-mode-icon,
+.light-mode .dark-mode-icon {
+    opacity: 0;
+} */
